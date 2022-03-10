@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react'
 
-export default class CryptoGraph extends Component {
-    render() {
-        return(
+export default function CryptoGraph({ input }) {
+    return(
+        <>
             <p>Hello World</p>
-        )
-    }
+        </>
+    )
 }
